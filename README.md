@@ -8,7 +8,7 @@ The Disk Performance Benchmark Suite provides comprehensive storage testing with
     
 2.  Benchmark script (`run_disk_benchmark.sh`)
     
-3.  Troubleshooting script (`disk_troubleshoot.sh`)
+3.  TuneUp script (`ubuntu_tuneup.sh`)
     
 
 ### Installation Script (`install_disk_benchmark.sh`)
@@ -92,11 +92,11 @@ Executes comprehensive disk performance tests and generates HTML report.
 - Color-coded performance ratings (Excellent/Good/Average/Poor)
     
 
-### Troubleshooting Script (`disk_troubleshoot.sh`)
+### Tuneup Script (`ubuntu_tuneup.sh`)
 
 #### Purpose:
 
-Diagnoses common disk performance issues and configuration problems.
+Tuneup disk performance and configuration.
 
 #### Parameters:
 
@@ -105,10 +105,10 @@ None
 #### Usage:
 
 ```
-sudo ./disk_troubleshoot.sh
+sudo ./ubuntu_tuneup.sh
 ```
 
-#### Checks Performed:
+#### Tuneup Performed:
 
 1.  System overview
     
